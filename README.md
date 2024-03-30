@@ -1,10 +1,10 @@
 # XZ Backdoor Github Analysis
 
-This repo contains a simple Jupyter Notebook that allows you to query Github's GraphQL API for a user's commit history. This was performed in reaction to the recent XZ supply chain compromise.
+This repo contains a simple Jupyter Notebook that allows you to query Github's GraphQL API for a user's commit history. The particular focus of this repo is recent XZ supply chain compromise. The primary user of interest was [JiaT75](https://github.com/JiaT75).
 
 The data currently being used in this visualization was captured at around 7:00PM EST on 2024/03/29. Since Github has removed the repository, if you refetch the data now, you will get different results.
 
-There are plenty of plausable explanations for why the commits of interest occurred at such a strange time. Keep in mind that, by itself, none of this is a damning piece of evidence by any means. It is simply an interesting observation. I'm not making any claims about what this could mean, and will leave interpretation/speculation as an exercise to the reader.
+There are plenty of plausable explanations for why the commits of interest occurred at such a strange time. Keep in mind that, by itself, none of this is a damning piece of evidence by any means. It is simply an interesting observation. I'm not making any claims about what this could mean, so any interpretation/speculation is an exercise for the reader.
 
 **Important caveat:** please **do not** start accusing random OSS authors of being malicious actors without **credible** evidence. It is already a thankless job and there is no need to make their lives harder. <3
 
